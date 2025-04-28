@@ -1,8 +1,7 @@
 @media screen and (max-width:320px) {
     .nav-bar {
         margin-top: 50px;
-        transform: translateX(120px);
-        width: 100%;
+        transform: translateX(50px);
     }
 
     #login {
@@ -11,15 +10,55 @@
 
     #h1 {
         font-size: 6rem;
-        background-image:;
-    }
+        text-align:center;
+        color: rgb(209, 209, 26);
+        text-shadow:   2px 0 rgb(121, 57, 57),
+        -2px -2px 0 black, 
+        2px -2px 0 rgb(207, 52, 52),  
+        -2px  2px 0 black; 
+           }
 
-    #row-both {
-        flex-wrap:wrap-reverse;
-        background-color: beige;
+    .col p {
+        font-size: 2rem;
+        line-height: 3rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 0 rgb(175, 162, 162);
     }
-    .col{
-        height: 30px;
-        width: 100%;
+    .col p:hover{
+        color:rgb(70, 182, 182);
+        text-shadow: 2px 0 red;
     }
+#row-both{
+    background-image:url(../public/images/abhay.png);
+    width: 36rem;
+    height: 67rem;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position:-150px;
+    padding-right: 20px;
+}
+body{
+    overflow-y: hidden;
+
+}
+#btn-area{
+    transform: translateY(13rem);
+}
+#btn-area button{
+    height: 40px;
+    color: rgb(11, 7, 7);
+}
+#align-item{
+    transform: translateY(13rem);
+}
+#align-item p{
+    font-size: 1.5rem;
+    color: rgb(198, 193, 193);
+    text-shadow: 2px 0 rgb(0, 0, 0);
+
+}
+#align-item .platform img{
+    width: 80px;
+    border-radius: 9px;
+}
 }

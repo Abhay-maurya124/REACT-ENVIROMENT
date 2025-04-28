@@ -41,7 +41,7 @@ function App() {
         </div>
       </div>
       <div class="row flex justify-evenly" id="row-both">
-        <div class="col h-[0.6rem]  w-[100%] text-center ps-16 ">
+        <div class="col h-[0.6rem] text-center ps-16 ">
           <h1 className="text-9xl font-black text-left ps-1" id="h1">
             YOUR FEET DESERVE THE BEST
           </h1>
@@ -53,7 +53,7 @@ function App() {
             SHOES.YOUR FEET DESERVE THE BEST AND WE ARE HEAR TO HELP YOU WITH
             OUR SHOE.
           </p>
-          <div className="btn-area text-left mt-3">
+          <div className="btn-area text-left mt-3" id="btn-area">
             <button>
               <a
                 href="#"
@@ -71,7 +71,7 @@ function App() {
               </a>
             </button>
           </div>
-          <div className="text-p">
+          <div className="text-p" id="align-item">
             <p className="uppercase font-semibold text-left mt-5 ps-3">available on</p>
             <div className="platform flex mt-3 ms-3">
               <img src="public/images/pngwing.com (3).png" className="w-[35px] mx-4" />
