@@ -1,0 +1,25 @@
+@media screen and (max-width:320px) {
+    .nav-bar {
+        margin-top: 50px;
+        transform: translateX(120px);
+        width: 100%;
+    }
+
+    #login {
+        margin-left: 40px;
+    }
+
+    #h1 {
+        font-size: 6rem;
+        background-image:;
+    }
+
+    #row-both {
+        flex-wrap:wrap-reverse;
+        background-color: beige;
+    }
+    .col{
+        height: 30px;
+        width: 100%;
+    }
+}
